@@ -15,11 +15,20 @@
             <input type="text" name="pass" value=""><br /><br /><br />
 
             <h>Items</h><br />
-            <item>Item 1</item><br />
-            <item>Item 2</item><br />
-            <item>Item 3</item><br /><br /><br />
+            <item>Box of Air</item><br />
+            Quantity: <input type="number" name="box" value="" min="0" max="5"><br />
+            <item>Jar of Air</item><br />
+            Quantity: <input type="number" name="jar" value="" min="0" max="5"><br />
+            <item>Carton of Air</item><br />
+            Quantity: <input type="number" name="carton" value="" min="0" max="5"><br /><br /><br />
 
             <h>Shipping</h><br />
+            <input type="radio" name="ship" value="Free" />Free 7 day<br />
+            <input type="radio" name="ship" value="50" />$50.00 over night<br />
+            <input type="radio" name="ship" value="5" />$5.00 three day<br /><br />
+
+            <input type="reset" name="reset" value="Reset" /><br />
+            <input type="submit" name="submit" value="Submit Order" onsubmit=""><br />
 
         </form>
     </body>
