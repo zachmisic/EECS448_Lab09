@@ -1,0 +1,15 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16pt;
+    color: black;
+}
+
+h {
+    font-weight: bold;
+    font-size: 24pt;
+}
+
+item {
+    font-size: 18pt;
+    color: #000066;
+}
